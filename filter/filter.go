@@ -3,8 +3,8 @@ package filter
 import (
 	"path/filepath"
 
-	"github.com/reviewdog/reviewdog/diff"
-	"github.com/reviewdog/reviewdog/proto/rdf"
+	"github.com/reviewtool/reviewtool/diff"
+	"github.com/reviewtool/reviewtool/proto/rdf"
 )
 
 // FilteredDiagnostic represents Diagnostic with filtering info.

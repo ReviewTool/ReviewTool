@@ -13,13 +13,13 @@ import (
 	"golang.org/x/oauth2"
 	"google.golang.org/protobuf/testing/protocmp"
 
-	"github.com/reviewdog/reviewdog"
-	"github.com/reviewdog/reviewdog/cienv"
-	"github.com/reviewdog/reviewdog/doghouse"
-	"github.com/reviewdog/reviewdog/doghouse/client"
-	"github.com/reviewdog/reviewdog/filter"
-	"github.com/reviewdog/reviewdog/project"
-	"github.com/reviewdog/reviewdog/proto/rdf"
+	"github.com/reviewtool/reviewtool"
+	"github.com/reviewtool/reviewtool/cienv"
+	"github.com/reviewtool/reviewtool/doghouse"
+	"github.com/reviewtool/reviewtool/doghouse/client"
+	"github.com/reviewtool/reviewtool/filter"
+	"github.com/reviewtool/reviewtool/project"
+	"github.com/reviewtool/reviewtool/proto/rdf"
 )
 
 func setupEnvs(testEnvs map[string]string) (cleanup func()) {
@@ -232,7 +232,7 @@ func TestPostResultSet_withReportURL(t *testing.T) {
 					Diagnostic: &rdf.Diagnostic{
 						Message: "name1: test 1",
 						Location: &rdf.Location{
-							Path: "cmd/reviewdog/reviewdog.go",
+							Path: "cmd/reviewtool/reviewtool.go",
 							Range: &rdf.Range{
 								Start: &rdf.Position{Line: 14},
 							},
@@ -244,7 +244,7 @@ func TestPostResultSet_withReportURL(t *testing.T) {
 					Diagnostic: &rdf.Diagnostic{
 						Message: "name1: test 2",
 						Location: &rdf.Location{
-							Path: "cmd/reviewdog/reviewdog.go",
+							Path: "cmd/reviewtool/reviewtool.go",
 						},
 					},
 				},

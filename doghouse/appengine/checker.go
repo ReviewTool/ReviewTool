@@ -10,10 +10,10 @@ import (
 
 	"github.com/vvakame/sdlog/aelog"
 
-	"github.com/reviewdog/reviewdog/doghouse"
-	"github.com/reviewdog/reviewdog/doghouse/server"
-	"github.com/reviewdog/reviewdog/doghouse/server/ciutil"
-	"github.com/reviewdog/reviewdog/doghouse/server/storage"
+	"github.com/reviewtool/reviewtool/doghouse"
+	"github.com/reviewtool/reviewtool/doghouse/server"
+	"github.com/reviewtool/reviewtool/doghouse/server/ciutil"
+	"github.com/reviewtool/reviewtool/doghouse/server/storage"
 )
 
 type githubChecker struct {
