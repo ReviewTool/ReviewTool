@@ -11,9 +11,9 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-github/v53/github"
 
-	"github.com/reviewdog/reviewdog/doghouse"
-	"github.com/reviewdog/reviewdog/filter"
-	"github.com/reviewdog/reviewdog/proto/rdf"
+	"github.com/reviewtool/reviewtool/doghouse"
+	"github.com/reviewtool/reviewtool/filter"
+	"github.com/reviewtool/reviewtool/proto/rdf"
 )
 
 type fakeCheckerGitHubCli struct {

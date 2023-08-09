@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/reviewdog/reviewdog/diff"
+	"github.com/reviewtool/reviewtool/diff"
 )
 
 func TestMode_Set(t *testing.T) {

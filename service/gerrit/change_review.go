@@ -8,8 +8,8 @@ import (
 
 	"golang.org/x/build/gerrit"
 
-	"github.com/reviewdog/reviewdog"
-	"github.com/reviewdog/reviewdog/service/serviceutil"
+	"github.com/reviewtool/reviewtool"
+	"github.com/reviewtool/reviewtool/service/serviceutil"
 )
 
 var _ reviewdog.CommentService = &ChangeReviewCommenter{}
