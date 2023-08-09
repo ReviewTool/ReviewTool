@@ -1,4 +1,4 @@
-package reviewdog
+package reviewtool
 
 import (
 	"bytes"
@@ -7,10 +7,10 @@ import (
 	"io"
 	"os"
 
-	"github.com/reviewdog/reviewdog/diff"
-	"github.com/reviewdog/reviewdog/filter"
-	"github.com/reviewdog/reviewdog/parser"
-	"github.com/reviewdog/reviewdog/proto/rdf"
+	"github.com/reviewtool/reviewtool/diff"
+	"github.com/reviewtool/reviewtool/filter"
+	"github.com/reviewtool/reviewtool/parser"
+	"github.com/reviewtool/reviewtool/proto/rdf"
 )
 
 // Reviewdog represents review dog application which parses result of compiler
@@ -48,7 +48,7 @@ type CommentService interface {
 }
 
 // BulkCommentService posts comments all at once when Flush() is called.
-// Flush() will be called at the end of reviewdog run.
+// Flush() will be called at the end of reviewtool run.
 type BulkCommentService interface {
 	CommentService
 	Flush(context.Context) error

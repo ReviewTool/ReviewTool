@@ -7,8 +7,8 @@ import (
 
 	"github.com/haya14busa/go-actions-toolkit/core"
 
-	"github.com/reviewdog/reviewdog"
-	"github.com/reviewdog/reviewdog/proto/rdf"
+	"github.com/reviewtool/reviewtool"
+	"github.com/reviewtool/reviewtool/proto/rdf"
 )
 
 const MaxLoggingAnnotationsPerStep = 10

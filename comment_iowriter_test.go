@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/reviewdog/reviewdog/filter"
-	"github.com/reviewdog/reviewdog/proto/rdf"
+	"github.com/reviewtool/reviewtool/filter"
+	"github.com/reviewtool/reviewtool/proto/rdf"
 )
 
 func TestUnifiedCommentWriter_Post(t *testing.T) {

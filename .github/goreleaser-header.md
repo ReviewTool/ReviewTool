@@ -1,1 +1,1 @@
-See [CHANGELOG](https://github.com/reviewdog/reviewdog/blob/master/CHANGELOG.md)
+See [CHANGELOG](https://github.com/reviewtool/reviewtool/blob/master/CHANGELOG.md)
